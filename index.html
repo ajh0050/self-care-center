@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8"/>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     <title>Self Care Center</title>
   </head>
   <body class='main-flex-container'>
-    <h2>Self Care Center</h1>
-    <h3>Which type of message?</h2>
+    <h2>&#10024; Self Care Center &#10024;</h2>
+    <h3>Which type of message?</h3>
     <form class='form-flex-container'>
       <div class='radio-flex-container-row'>
         <div>
-          <input type='radio'/>
+          <input class='affirmation-radio' type='radio'/>
           <label>affirmation</label>
         </div>
         <div>
-          <input type='radio'/>
+          <input class='mantra-radio'type='radio'/>
           <label>mantra</label>
         </div>
       </div>
       <div class='receive-message-button-container'>
         <button class='receive-message-button'>Receive Message</button>
       </div>
+      <div class='clear-message-button-container'>
+        <button class='clear-message-button' hidden>Clear Message</button>
+      </div>
     </form>
     <section>
       <div class='message-flex-container'>
-        <h4>Here is the message</h3>
+        <img src='assets/meditate.svg'/>
       </div>
     </section>
     <script type="text/javascript" src="main.js"></script>
